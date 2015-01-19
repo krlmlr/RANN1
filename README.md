@@ -1,5 +1,5 @@
-# RANN
-[![Build Status](https://travis-ci.org/jefferis/RANN.svg)](https://travis-ci.org/jefferis/RANN)
+# RANN1
+[![Build Status](https://travis-ci.org/jefferis/RANN1.svg)](https://travis-ci.org/jefferis/RANN1)
 
 Finds the k nearest neighbours for every point in a given dataset
 in O(N log N) time using Arya and Mount's ANN library (v1.1.3). There is

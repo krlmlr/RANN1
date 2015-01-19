@@ -89,7 +89,7 @@ extern "C"
 
 		for (int j = 0; j < k; j++)
 		{
-			distances[ptr] = sqrt(dists[j]);	// unsquare distance
+			distances[ptr] = dists[j];	// no need to unsquare distance
 			nn_index[ptr++]  = nn_idx[j] + 1;	// put indices in returned array
 		}
 	}

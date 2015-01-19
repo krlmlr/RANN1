@@ -1,12 +1,14 @@
 # RANN1
 [![Build Status](https://travis-ci.org/jefferis/RANN1.svg)](https://travis-ci.org/jefferis/RANN1)
 
-Finds the k nearest neighbours for every point in a given dataset
+Finds the k nearest neighbours **using Manhattan distances**  for every point in a given dataset
 in O(N log N) time using Arya and Mount's ANN library (v1.1.3). There is
 support for approximate as well as exact searches, fixed radius searches
 and bd as well as kd trees.
 
 For further details on the underlying ANN library, see http://www.cs.umd.edu/~mount/ANN.
+
+This package is essentially identical to the [RANN package](https://github.com/jefferis/RANN) -- the only difference is that the latter uses Euclidean distances.
 
 ## Installation
 ### Released versions
